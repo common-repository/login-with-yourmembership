@@ -1,0 +1,373 @@
+.moym_msgs {
+	font-size: 14px !important;
+}
+
+.moym_success_container {
+	background-color: rgba(185, 228, 155, 0.56) !important;
+	margin-left: 3px !important;
+
+}
+
+.moym_error_container {
+	background-color: rgba(251, 102, 0, 0.29) !important;
+	margin-left: 3px !important;
+}
+
+.moym_table_layout {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	padding: 0px 10px 20px 15px;
+	margin-bottom: 10px;
+	height: auto;
+}
+
+.moym_table_layout input[type=text] {
+	width: 80%;
+}
+
+.moym_table_textbox {
+	width: 80%;
+}
+
+/*** SLIDER SWITCH ***/
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 22px;
+	width: 21px;
+	left: 2px;
+	bottom: 1px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: #2196F3;
+}
+
+input:disabled+.slider {
+	background-color: #ebebeb;
+	cursor: default;
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(16px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+/****** PRICING PLANS ********/
+.moym_pricing_table {
+	text-align: center;
+	font-size: 15px !important;
+}
+
+.moym_plan_col {
+	width: 45%;
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	border-radius: 1%;
+	margin: 2%;
+	transition: box-shadow .3s;
+	cursor: default;
+}
+
+.moym_plan_col:hover {
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+	pointer: default;
+}
+
+.moym_plan_header {
+	height: 65px;
+	padding: 2.5em 0em;
+	pointer-events: auto;
+	text-align: center;
+	color: #2f6062;
+	background-color: transparent;
+}
+
+.moym_plan_heading {
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+.moym_plan_currency,
+.moym_plan_value {
+	font-size: 2.25rem;
+	font-weight: 300;
+}
+
+.moym_plan_currency {
+	display: inline-block;
+	margin-top: 10px;
+	vertical-align: top;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.moym_plan_footer {
+	position: relative;
+	height: auto;
+	padding: 1.8em 0;
+	text-align: center;
+	background: #0c1f28;
+	border-radius: 2px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.moym_plan_footer:hover {
+	cursor: pointer;
+	background: #000c17;
+}
+
+.moym_plan_select {
+	color: #FFFFFF;
+}
+
+.moym_plan_features {
+	width: auto;
+	word-wrap: break-word;
+	padding: 0em;
+}
+
+.moym_plan_features li {
+	padding: 0.75em 1em;
+	margin: 0px !important;
+	font-size: 1.1em;
+	text-align: center;
+	white-space: initial;
+	line-height: 1em;
+	color: #2f6062;
+	float: none;
+	width: auto;
+}
+
+.moym_plan_features li:nth-of-type(2n+1) {
+	background-color: rgba(23, 61, 80, 0.06);
+}
+
+/**** HELP PAGE *****/
+.moym_title_panel {
+	width: 100%;
+	color: #1B79AE;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.moym_help_desc {
+	font-size: 13px;
+	border-left: solid 2px rgba(128, 128, 128, 0.65);
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+.moym_help_title {
+	font-size: 13px;
+	width: 100%;
+	color: #1B79AE;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.moym_support_layout {
+	width: 93%;
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	padding-left: 20px;
+	height: auto;
+}
+
+.moym_settings_table {
+	width: 100%;
+}
+
+.moym_table_contact {
+	width: 95%;
+}
+
+.moym_help_desc {
+	font-size: 13px;
+	border-left: solid 2px rgba(128, 128, 128, 0.65);
+	margin-top: 10px;
+	padding-left: 10px;
+}
+
+a {
+	cursor: pointer;
+}
+
+#TB_window,
+#TB_window #TB_ajaxContent {
+	width: 500px !important;
+}
+
+/** Feedback Form CSS **/
+.moym-modal {
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1050;
+	-webkit-overflow-scrolling: touch;
+	outline: 0;
+}
+
+.moym-modal-content {
+	position: relative;
+	background-color: #ffffff;
+	border: 1px solid #999999;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 6px;
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	outline: 0;
+	margin-left: 20%;
+	margin-right: 24%;
+	margin-top: 6%;
+}
+
+.moym-close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.moym-rate-img {
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+}
+
+#moym_feedback_modal input[type=radio] {
+	display: none;
+}
+
+.moym-rate-img:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.moym-rate-img:active {
+	opacity: 0.4;
+	cursor: pointer;
+}
+
+input[type=radio]:checked+label>.moym-rate-img {
+	border: 2px solid #21ecdc;
+}
+
+.moym-edit {
+	text-align: center;
+	width: 15px;
+	height: 15px;
+}
+
+.notecard {
+	background: #ffffff;
+	border-radius: 5px;
+	font-size: 14px;
+	margin-top: 10px;
+	padding: 10px;
+	border-style: solid;
+	border-color: #2f6062;
+
+}
+
+.ym_logo img {
+	width: 90px;
+	height: 90px;
+	margin-bottom: -1em;
+}
+
+.ym_logo {
+	width: 100px;
+	height: 97px;
+	display: inline-block;
+	text-align: center;
+	padding: 5px 0px 0px 0px;
+}
+
+/** Login button CSS **/
+.moym_login_button {
+	padding: 5px;
+	font-size: 14px;
+	height: 20px;
+	text-align: center;
+}
+
+#moym_button {
+	width: 100%;
+	height: 88px;
+	justify-content: center;
+	align-items: center;
+}
+
+#moym_login_sso_button {
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	margin-bottom:1.3rem;
+}
+
+.moym_login_lockicon {
+	width:20px;
+	height:15px;
+	padding-right:1px;
+}
